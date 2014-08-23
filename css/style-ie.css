@@ -2994,10 +2994,11 @@ body {
 }
 
 .brand {
-  display: inline-block;
+  display: none;
   font-weight: 100;
   font-family: Roboto;
   font-size: 18px;
+  display: inline-block;
 }
 .brand strong {
   font-weight: 700;
@@ -3051,9 +3052,10 @@ strong {
   color: white;
   background: #3a3a3a;
   margin-bottom: 20px;
-  padding: 30px 0;
+  padding: 60px 0 30px 0;
   transition: padding 1s;
   -webkit-transition: padding 1s;
+  background-color: #82421f;
   background: url(../img/movable.jpg);
   background-size: cover;
   background-position: center center;
@@ -3533,6 +3535,18 @@ strong {
 .footer a {
   text-decoration: none;
   font-weight: bold;
+}
+.footer .github {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+.footer .github a {
+  margin: 5px 15px;
+  display: inline-block;
+}
+.footer .github .fa {
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .details {

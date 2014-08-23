@@ -41,6 +41,7 @@ var globalFontList = [customFontList];
 $(document).ready(function() {
 	var fontList = [];
 
+	preloadImages();
 	draggableInizialize();
 	optionsInizialize();
 	editableInizialize();
@@ -441,6 +442,16 @@ function uploadInizialize() {
 		$('#uploadButton').prop('disabled', true);
 		sendAlert('error', 'Browser doesn\'t support file upload')
 	}
+}
+
+function preloadImages() {
+	hero = $('.intro');
+	hero.css('background', '#82421f');
+	var heroImg = new Image();
+	heroImg.src = 'img/movable.jpg';
+	heroImg.onload = function() {
+		$('.intro').css('background', 'url(img/movable.jpg)')
+	};
 }
 
 //////////////////////////////
