@@ -42,6 +42,7 @@ $(document).ready(function() {
 	var fontList = [];
 
 	preloadImages();
+	populatePlaceholder();
 	draggableInizialize();
 	optionsInizialize();
 	editableInizialize();
@@ -328,6 +329,13 @@ function appendSelected(element) {
 //////////////////////////////
 //	  	 UI Functions 		//
 //////////////////////////////
+
+function populatePlaceholder() {
+	$('.sizes span').html('Lorem ipsum dolor sit amet');
+	$('.subhead span').html('consectetur adipisci elit');
+	$('.text span').html('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum nunc consequat, venenatis massa a, facilisis quam. Duis suscipit, sapien id consectetur elementum, ligula quam ultricies diam, vel egestas justo turpis non orci. Nulla tempus vulputate sem, tincidunt luctus urna ullamcorper non. Proin ipsum velit, viverra vitae orci vel, lobortis dapibus ante. Suspendisse quis tellus id neque lacinia iaculis. Morbi ultricies interdum mi, sed mattis magna hendrerit vel. Mauris congue enim vel diam malesuada, sed bibendum leo congue. Suspendisse rutrum pharetra enim ac cursus. Donec ultricies commodo odio in lobortis. In eget arcu et nulla porttitor rhoncus et vel tortor. Pellentesque mattis adipiscing dui et iaculis. Quisque auctor nibh eget pulvinar volutpat. Cras a mollis quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.')
+	$('.caption span').html('Mauris congue enim vel diam malesuada, sed bibendum leo congue. Suspendisse rutrum pharetra enim ac cursus. Donec ultricies commodo odio in lobortis. In eget arcu et nulla porttitor rhoncus et vel tortor. Pellentesque mattis adipiscing dui et iaculis. Quisque auctor nibh eget pulvinar volutpat. Cras a mollis quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.')
+}
 
 function draggableInizialize() {
 	$('.font span').draggable({
