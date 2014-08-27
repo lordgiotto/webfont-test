@@ -1,7 +1,7 @@
 webfont-test
 ============
 
-![webfont|test](https://raw.githubusercontent.com/lordgiotto/webfont-test/master/img/screen.png)
+![webfont|test](https://github.com/lordgiotto/webfont-test/raw/gh-pages/img/screen.png)
 
 Test and analyze fonts for the web: Google fonts, system fonts and custom fonts.
 
