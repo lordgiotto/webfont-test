@@ -7,7 +7,9 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://lordgiotto.github.io/webfont-test/</loc>
-  <lastmod>2014-08-23T15:14:14+00:00</lastmod>
+	<loc>http://lordgiotto.github.io/webfont-test/</loc>
+	<lastmod>2014-08-30T14:48:40+00:00</lastmod>
+	<changefreq>always</changefreq>
+	<priority>1.0</priority>
 </url>
 </urlset>
